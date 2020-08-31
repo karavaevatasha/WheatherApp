@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Skillbox_12_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bc" translatesAutoresizingMaskIntoConstraints="NO" id="9uR-mf-4Rq">
+                                <rect key="frame" x="0.0" y="-1" width="454" height="943"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hg-8o-thV">
+                                <rect key="frame" x="82" y="237" width="250" height="57.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="YUl-cT-c2B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJV-mt-iJj">
+                                <rect key="frame" x="67.5" y="301.5" width="279" height="42.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="Tn2-iE-h9u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVy-fh-2Q7">
+                                <rect key="frame" x="89.5" y="99.5" width="235" height="112.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="C1u-cv-HUN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3g6-AA-egO">
+                                <rect key="frame" x="20" y="363" width="374" height="170"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9J-L2-esq">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="51.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2K4-cP-9qk">
+                                        <rect key="frame" x="0.0" y="59.5" width="374" height="51"/>
+                                        <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6c-EI-Q7G">
+                                        <rect key="frame" x="0.0" y="118.5" width="374" height="51.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="A1b-cj-a06"/>
+                                    <constraint firstAttribute="width" constant="374" id="skj-FJ-tvD"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cu-8f-IKX">
+                                <rect key="frame" x="82.5" y="635" width="249" height="59"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="249" id="dhX-X6-HMs"/>
+                                    <constraint firstAttribute="height" constant="59" id="gAp-Lb-GV3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Погода на неделю"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ehb-aJ-wNU" kind="show" id="B1C-7w-Iec"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9cu-8f-IKX" secondAttribute="bottom" constant="168" id="26n-b1-63R"/>
+                            <constraint firstItem="9cu-8f-IKX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="83Y-KQ-3tr"/>
+                            <constraint firstItem="9cu-8f-IKX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AVn-FG-nvz"/>
+                            <constraint firstItem="9uR-mf-4Rq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BEk-A1-OOy"/>
+                            <constraint firstItem="9uR-mf-4Rq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="80" id="BgS-yw-fnT"/>
+                            <constraint firstItem="7hg-8o-thV" firstAttribute="top" secondItem="BVy-fh-2Q7" secondAttribute="bottom" constant="25" id="CcH-EH-8Kk"/>
+                            <constraint firstItem="7hg-8o-thV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dmg-WS-Otz"/>
+                            <constraint firstItem="oJV-mt-iJj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nbi-We-mGc"/>
+                            <constraint firstItem="9uR-mf-4Rq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="40" id="RuU-wH-Zsd"/>
+                            <constraint firstItem="3g6-AA-egO" firstAttribute="top" secondItem="oJV-mt-iJj" secondAttribute="bottom" constant="19" id="dDd-Dm-mJf"/>
+                            <constraint firstItem="oJV-mt-iJj" firstAttribute="top" secondItem="7hg-8o-thV" secondAttribute="bottom" constant="7" id="dr8-pF-372"/>
+                            <constraint firstItem="BVy-fh-2Q7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e5h-1h-wy5"/>
+                            <constraint firstItem="3g6-AA-egO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hE3-bs-3Pp"/>
+                            <constraint firstItem="9uR-mf-4Rq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-45" id="pFP-I9-62b"/>
+                            <constraint firstItem="3g6-AA-egO" firstAttribute="centerX" secondItem="oJV-mt-iJj" secondAttribute="centerX" id="qqC-y0-06d"/>
+                            <constraint firstItem="9cu-8f-IKX" firstAttribute="leading" secondItem="3g6-AA-egO" secondAttribute="trailing" constant="-311.5" id="vUh-b6-oAs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="oJV-mt-iJj" id="Gb5-mC-ec9"/>
+                        <outlet property="feelsLikeLabel" destination="c9J-L2-esq" id="rIj-qg-aFq"/>
+                        <outlet property="humidityLabel" destination="2K4-cP-9qk" id="CZL-aI-ANo"/>
+                        <outlet property="pressureLabel" destination="m6c-EI-Q7G" id="DbL-LN-kqg"/>
+                        <outlet property="tempLabel" destination="BVy-fh-2Q7" id="BDn-Gw-0H8"/>
+                        <outlet property="townLabel" destination="7hg-8o-thV" id="jIA-44-bjd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128" y="124"/>
+        </scene>
+        <!--Week Weather-->
+        <scene sceneID="bGY-oC-jA5">
+            <objects>
+                <tableViewController title="Week Weather" id="ehb-aJ-wNU" customClass="ForecastWhetherController" customModule="Skillbox_12_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="XOW-Ah-Hg6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="sectionIndexBackgroundColor" red="0.70712753360000002" green="0.76390933500000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" alpha="0.59999999999999998" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="98" id="v8n-Wb-4n1" customClass="ForecastWeatherCell" customModule="Skillbox_12_1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="98"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v8n-Wb-4n1" id="U9U-EJ-YPV">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bc2" translatesAutoresizingMaskIntoConstraints="NO" id="NeP-Br-dL4">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="nk1-ye-z8h">
+                                            <rect key="frame" x="8" y="0.0" width="406" height="98"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtM-Nt-ptV">
+                                                    <rect key="frame" x="0.0" y="0.0" width="98.5" height="98"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Shm-cA-H4W"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="18"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="htK-p6-ZhQ">
+                                                    <rect key="frame" x="102.5" y="0.0" width="98.5" height="98"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="90" id="7k1-3l-9d6"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="iPW-d8-oNg"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THz-lQ-oa0">
+                                                    <rect key="frame" x="205" y="0.0" width="98.5" height="98"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="BGY-Pz-6iT"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="NotoSansOriya-Bold" family="Noto Sans Oriya" pointSize="22"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eb-KN-e65">
+                                                    <rect key="frame" x="307.5" y="0.0" width="98.5" height="98"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="Gh9-75-242"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="22"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="414" id="4P1-B0-HJI"/>
+                                                <constraint firstAttribute="height" constant="101" id="ORq-Zv-LGi"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="nk1-ye-z8h" secondAttribute="bottom" id="4kS-gB-YfY"/>
+                                        <constraint firstItem="NeP-Br-dL4" firstAttribute="leading" secondItem="U9U-EJ-YPV" secondAttribute="leading" id="7BU-2I-8fV"/>
+                                        <constraint firstAttribute="trailing" secondItem="nk1-ye-z8h" secondAttribute="trailing" id="ITG-it-f1u"/>
+                                        <constraint firstAttribute="bottom" secondItem="NeP-Br-dL4" secondAttribute="bottom" id="KTE-te-OIJ"/>
+                                        <constraint firstAttribute="trailing" secondItem="NeP-Br-dL4" secondAttribute="trailing" id="LaQ-RQ-Cw2"/>
+                                        <constraint firstItem="nk1-ye-z8h" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="U9U-EJ-YPV" secondAttribute="leading" constant="8" id="PF5-gV-DEk"/>
+                                        <constraint firstItem="nk1-ye-z8h" firstAttribute="top" secondItem="U9U-EJ-YPV" secondAttribute="top" id="PYj-uR-tZ7"/>
+                                        <constraint firstItem="NeP-Br-dL4" firstAttribute="top" secondItem="U9U-EJ-YPV" secondAttribute="top" id="sZg-J5-f8k"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dateLabel" destination="YtM-Nt-ptV" id="zeF-tQ-Rmu"/>
+                                    <outlet property="iconImage" destination="htK-p6-ZhQ" id="zub-va-fNF"/>
+                                    <outlet property="maxTemp" destination="THz-lQ-oa0" id="ZVy-07-cfi"/>
+                                    <outlet property="minTemp" destination="8eb-KN-e65" id="TEV-Tw-D4o"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Forecast for Week" id="stO-EV-bNx"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="forecastTable" destination="XOW-Ah-Hg6" id="GUx-yM-25h"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Luc-0F-QQm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.81159420289862" y="123.88392857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bc" width="600" height="1064"/>
+        <image name="bc2" width="392" height="211"/>
+    </resources>
+</document>
