@@ -9,10 +9,6 @@
 import Foundation
 import Alamofire
 
-//protocol CategoriesLoaderDelegate {
-//    func loaded(categories: [Forecast])
-//}
-
 struct Request: Decodable {
     var list : [WeatherWeek?]
 }
@@ -52,42 +48,8 @@ class AlamofireNetworkRequest {
                 callback(weekForecast)
             } catch let error {
                 print(error)
-                
-//                if let list = response.value,
-//                let jsonDict = list as? NSDictionary{
-//                DispatchQueue.main.async {
-//                    var weekForecast: [Forecast] = []
-//
-//                    for (_, data) in jsonDict where data is NSDictionary{
-//                        if let forecast = Forecast(data: data as! NSDictionary){
-//                            weekForecast.append(forecast)
-//                        }
-//                    }
-//                    completion(weekForecast)
                 }
             }
         }
     }
 }
-
-   /* static func sendRequest(url: String, completion: @escaping (_ forecast: [Forecast])->()) {
-        
-        guard let url = URL(string: url) else { return }
-        
-        AF.request(url, method: .get).validate().responseJSON { (response) in
-            
-            switch response.result {
-                
-            case .success(let value):
-           
-               var forecast = [Forecast]()
-         forecast = Forecast.getArray(from: value)!
-                completion(forecast)
-                
-            case .failure(let error):
-                print(error)
-            }
-        }
-    }*/
-
-

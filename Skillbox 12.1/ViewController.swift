@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var pressureLabel: UILabel!
     @IBOutlet weak var humidityLabel: UILabel!
     @IBAction func showWeekWeatherButton(_ sender: Any) {
-        
     }
     
     var forecast: [Weather] = []
@@ -26,10 +25,6 @@ class ViewController: UIViewController {
         WeatherLoader.shared.delegate = self
         WeatherLoader.shared.loadWeather()
     }
-    
-    
-    @IBAction func exitSegueToMainScreen(segue: UIStoryboardSegue) { }
-    
 }
 
 

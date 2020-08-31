@@ -20,7 +20,6 @@
 		5FBE5A8124B71AFB00F7FC02 /* ForecastWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE5A8024B71AFB00F7FC02 /* ForecastWeatherCell.swift */; };
 		5FBE5A8524B72A0100F7FC02 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE5A8424B72A0100F7FC02 /* Weather.swift */; };
 		5FBE5A8724B72A1500F7FC02 /* WeatherLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE5A8624B72A1500F7FC02 /* WeatherLoader.swift */; };
-		5FBE5A8924B870FB00F7FC02 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE5A8824B870FA00F7FC02 /* Forecast.swift */; };
 		5FBE5A8B24B8710B00F7FC02 /* ForecastLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE5A8A24B8710B00F7FC02 /* ForecastLoader.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		5FBE5A8024B71AFB00F7FC02 /* ForecastWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherCell.swift; sourceTree = "<group>"; };
 		5FBE5A8424B72A0100F7FC02 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = "../Skillbox 12.1/Weather.swift"; sourceTree = "<group>"; };
 		5FBE5A8624B72A1500F7FC02 /* WeatherLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherLoader.swift; path = "../Skillbox 12.1/WeatherLoader.swift"; sourceTree = "<group>"; };
-		5FBE5A8824B870FA00F7FC02 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		5FBE5A8A24B8710B00F7FC02 /* ForecastLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +80,6 @@
 			children = (
 				5FBE5A7E24B7177A00F7FC02 /* ForecastWhetherController.swift */,
 				5FBE5A8A24B8710B00F7FC02 /* ForecastLoader.swift */,
-				5FBE5A8824B870FA00F7FC02 /* Forecast.swift */,
 				5FBE5A8024B71AFB00F7FC02 /* ForecastWeatherCell.swift */,
 			);
 			name = Alamofire;
@@ -230,7 +227,6 @@
 				5FBE5A7F24B7177A00F7FC02 /* ForecastWhetherController.swift in Sources */,
 				5FBE5A6F24B70F0300F7FC02 /* ViewController.swift in Sources */,
 				5FBE5A6B24B70F0300F7FC02 /* AppDelegate.swift in Sources */,
-				5FBE5A8924B870FB00F7FC02 /* Forecast.swift in Sources */,
 				5FBE5A8B24B8710B00F7FC02 /* ForecastLoader.swift in Sources */,
 				5FBE5A8724B72A1500F7FC02 /* WeatherLoader.swift in Sources */,
 				5FBE5A6D24B70F0300F7FC02 /* SceneDelegate.swift in Sources */,
