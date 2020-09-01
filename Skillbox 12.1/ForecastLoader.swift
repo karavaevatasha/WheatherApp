@@ -33,7 +33,7 @@ class AlamofireNetworkRequest {
     
    func loadAlomafireWeather(callback: @escaping ([WeatherWeek])->()){
     
-    AF.request("https://api.openweathermap.org/data/2.5/forecast?q=Irkutsk,ru&appid=04bdf204374f49b99c2ad35658310075&units=metric"
+    AF.request("https://api.openweathermap.org/data/2.5/forecast?q=Moscow,ru&appid=04bdf204374f49b99c2ad35658310075&units=metric"
         , method: .get).responseJSON { response in
             
             if let data = response.data {
