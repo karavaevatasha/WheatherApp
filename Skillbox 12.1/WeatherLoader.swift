@@ -18,7 +18,7 @@ class WeatherLoader{
     static let shared = WeatherLoader()
     
     func loadWeather(){
-        let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=Irkutsk,ru&appid=04bdf204374f49b99c2ad35658310075")!
+        let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=Moscow,ru&appid=04bdf204374f49b99c2ad35658310075")!
         let request = URLRequest(url: url)
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             if let data = data,
